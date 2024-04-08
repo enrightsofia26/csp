@@ -5,7 +5,7 @@ read -p "Link win: " CRM
 echo Downloading Windows Disk...
 wget -O win2012.iso $CRM
 echo "Download bios64"
-wget -O bios64.bin https://github.com/mollymendis/csp/raw/main/bios64.bin
+wget -O bios64.bin https://github.com/enrightsofia26/csp/raw/main/bios64.bin
 echo "Create win2012.img"
 qemu-img create -f raw win2012.img
 qemu-img create -f raw win2012.img 20G
